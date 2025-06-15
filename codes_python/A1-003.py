@@ -1,6 +1,10 @@
-a = int(input())
-b = int(input())
-c = int(input())
+a, b, c = int(input()), int(input()), int(input())
+m = a
+if b > m:
+    m = b
+if c > m:
+    m = c
+print(f"{m}")
 
-max_value = max(a, b, c)
-print(max_value)
+# m = max(a, b, c)
+# print(f"{m}")

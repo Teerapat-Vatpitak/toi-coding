@@ -1,0 +1,4 @@
+for ($i = 1; $i -le 10; $i++) {
+    $num = '{0:D3}' -f $i
+    New-Item -ItemType File -Path "./A1-$num.py"
+}

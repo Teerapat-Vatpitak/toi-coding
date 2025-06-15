@@ -1,6 +1,4 @@
-n = int(input())
-coins = [10, 5, 2, 1]
-for coin in coins :
-    count = n // coin
-    print(f"{coin} = {count}")
-    n = n % coin
+coin = int(input())
+for i in [10, 5, 2, 1]:
+    print(f"{i} = {coin // i}")
+    coin %= i
